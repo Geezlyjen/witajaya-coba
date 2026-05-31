@@ -12,8 +12,8 @@ const articles = [
     excerpt: 'Panduan lengkap memilih material yang sesuai untuk kebutuhan bubut Anda. Ketahui karakteristik setiap material untuk hasil optimal.',
     image: 'https://images.unsplash.com/photo-1740209475472-aa7d280f7452?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxtZXRhbCUyMHdvcmtzaG9wJTIwcHJlY2lzaW9uJTIwcGFydHN8ZW58MXx8fHwxNzc5NzExOTUzfDA&ixlib=rb-4.1.0&q=80&w=1080',
     author: 'WITA JAYA',
-    date: '20 Mei 2026',
-    readTime: '5 min'
+    // date: '20 Mei 2026',
+    // readTime: '5 min'
   },
   {
     id: 2,
@@ -21,8 +21,8 @@ const articles = [
     excerpt: 'Memahami peran penting bearing dalam sistem mekanik dan cara memilih bearing yang tepat untuk aplikasi Anda.',
     image: 'https://images.unsplash.com/photo-1583198432859-635beb4e8600?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxtZWNoYW5pY2FsJTIwZ2VhcnMlMjBlbmdpbmVlcmluZ3xlbnwxfHx8fDE3Nzk3MTE5NTR8MA&ixlib=rb-4.1.0&q=80&w=1080',
     author: 'WITA JAYA',
-    date: '18 Mei 2026',
-    readTime: '4 min'
+    // date: '18 Mei 2026',
+    // readTime: '4 min'
   },
   {
     id: 3,
@@ -30,8 +30,8 @@ const articles = [
     excerpt: 'Kenali perbedaan teknik bubut ulir dan silinder, serta aplikasi terbaik untuk masing-masing metode.',
     image: 'https://images.unsplash.com/photo-1713371398485-7bde1bde9def?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw1fHxtZXRhbCUyMHdvcmtzaG9wJTIwcHJlY2lzaW9uJTIwcGFydHN8ZW58MXx8fHwxNzc5NzExOTUzfDA&ixlib=rb-4.1.0&q=80&w=1080',
     author: 'WITA JAYA',
-    date: '15 Mei 2026',
-    readTime: '6 min'
+    // date: '15 Mei 2026',
+    // readTime: '6 min'
   },
   {
     id: 4,
@@ -39,8 +39,8 @@ const articles = [
     excerpt: 'Panduan praktis merawat komponen kendaraan agar tetap awet dan performa optimal. Hemat biaya dengan perawatan yang tepat.',
     image: 'https://images.unsplash.com/photo-1666618090858-fbcee636bd3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxtZXRhbCUyMHdvcmtzaG9wJTIwcHJlY2lzaW9uJTIwcGFydHN8ZW58MXx8fHwxNzc5NzExOTUzfDA&ixlib=rb-4.1.0&q=80&w=1080',
     author: 'WITA JAYA',
-    date: '12 Mei 2026',
-    readTime: '5 min'
+    // date: '12 Mei 2026',
+    // readTime: '5 min'
   },
   {
     id: 5,
@@ -48,8 +48,8 @@ const articles = [
     excerpt: 'Mengapa custom part menjadi pilihan terbaik untuk kebutuhan industri Anda. Fleksibilitas dan presisi dalam satu solusi.',
     image: 'https://images.unsplash.com/photo-1593062037896-764e9f52029e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxtZWNoYW5pY2FsJTIwZ2VhcnMlMjBlbmdpbmVlcmluZ3xlbnwxfHx8fDE3Nzk3MTE5NTR8MA&ixlib=rb-4.1.0&q=80&w=1080',
     author: 'WITA JAYA',
-    date: '10 Mei 2026',
-    readTime: '7 min'
+    // date: '10 Mei 2026',
+    // readTime: '7 min'
   },
   {
     id: 6,
@@ -57,8 +57,8 @@ const articles = [
     excerpt: 'Mengenal standar industri dalam proses bubut presisi dan bagaimana WITA JAYA menerapkannya untuk hasil terbaik.',
     image: 'https://images.unsplash.com/photo-1666634157070-6fd830fb5672?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZXRhbCUyMHdvcmtzaG9wJTIwcHJlY2lzaW9uJTIwcGFydHN8ZW58MXx8fHwxNzc5NzExOTUzfDA&ixlib=rb-4.1.0&q=80&w=1080',
     author: 'WITA JAYA',
-    date: '8 Mei 2026',
-    readTime: '6 min'
+    // date: '8 Mei 2026',
+    // readTime: '6 min'
   }
 ];
 
@@ -111,14 +111,14 @@ export function ArticlePage() {
                       <User className="w-4 h-4" />
                       <span>{article.author}</span>
                     </div>
-                    <div className="flex items-center gap-2">
+                    {/* <div className="flex items-center gap-2">
                       <Clock className="w-4 h-4" />
                       <span>{article.readTime}</span>
-                    </div>
+                    </div> */}
                   </div>
-                  <div className="text-sm text-muted-foreground mb-4">
+                  {/* <div className="text-sm text-muted-foreground mb-4">
                     {article.date}
-                  </div>
+                  </div> */}
                   <button className="w-full bg-primary text-white py-2 rounded-lg hover:bg-primary/90 transition-all">
                     Baca Artikel
                   </button>

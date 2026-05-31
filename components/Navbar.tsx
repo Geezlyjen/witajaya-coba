@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export function Navbar() {
@@ -39,8 +40,14 @@ export function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold">
-              WJ
+            <div>
+              <Image
+                src="/logo.png"
+                alt="Logo WITA JAYA"
+                width={40}
+                height={40}
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <div className="font-bold text-lg text-primary">WITA JAYA</div>

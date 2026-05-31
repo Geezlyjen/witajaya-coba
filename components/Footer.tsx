@@ -1,6 +1,7 @@
 "use client";
 
 import { Phone, Music } from 'lucide-react';
+import Image from 'next/image';
 
 export function Footer() {
   const scrollToSection = (id: string) => {
@@ -14,12 +15,17 @@ export function Footer() {
     <footer className="bg-primary text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
-          {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-primary font-bold text-lg">
-                WJ
-              </div>
+            <div>
+              <Image
+                src="/logo.png"
+                alt="Logo WITA JAYA"
+                width={40}
+                height={40}
+                className="w-full h-full object-cover"
+              />
+            </div>
               <div>
                 <div className="font-bold text-xl">WITA JAYA</div>
                 <div className="text-sm text-white/80">Bengkel Bubut Presisi</div>
