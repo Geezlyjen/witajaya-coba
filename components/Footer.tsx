@@ -25,7 +25,7 @@ export function Footer() {
                 alt="Logo WITA JAYA"
                 width={40}
                 height={40}
-                className="w-full h-full object-cover"
+                className="object-contain"
               />
             </div>
               <div>
@@ -38,7 +38,7 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/* link */}
           <div>
             <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
             <div className="space-y-2">
@@ -75,7 +75,7 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Social Media */}
+          {/* sosmed */}
           <div>
             <h4 className="font-semibold text-lg mb-4">Hubungi Kami</h4>
             <div className="space-y-3">
