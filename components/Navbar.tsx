@@ -46,7 +46,7 @@ export function Navbar() {
                 alt="Logo WITA JAYA"
                 width={40}
                 height={40}
-                className="w-full h-full object-cover"
+                className="object-contain"
               />
             </div>
             <div>
