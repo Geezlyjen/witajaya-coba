@@ -2,7 +2,9 @@
 
 import { motion } from 'motion/react';
 import { useInView } from '@/hooks/useInView';
-import { MapPin, Phone, Mail, Music } from 'lucide-react';
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6";
+import { MdLocationOn, MdEmail } from "react-icons/md";
 import { useState } from 'react';
 
 export function ContactSection() {
@@ -43,7 +45,7 @@ export function ContactSection() {
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-primary" />
+                    <MdLocationOn className="w-6 h-6 text-primary" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Lokasi</h4>
@@ -53,7 +55,7 @@ export function ContactSection() {
 
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-6 h-6 text-primary" />
+                    <FaWhatsapp className="w-6 h-6 text-primary" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">WhatsApp</h4>
@@ -68,7 +70,7 @@ export function ContactSection() {
 
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Mail className="w-6 h-6 text-primary" />
+                    <MdEmail className="w-6 h-6 text-primary" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email</h4>
@@ -82,9 +84,9 @@ export function ContactSection() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  {/* <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Instagram className="w-6 h-6 text-primary" />
-                  </div> */}
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <FaInstagram className="w-6 h-6 text-primary" />
+                  </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Instagram</h4>
                     <a
@@ -100,7 +102,7 @@ export function ContactSection() {
 
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Music className="w-6 h-6 text-primary" />
+                    <FaTiktok className="w-6 h-6 text-primary" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">TikTok</h4>

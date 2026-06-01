@@ -20,6 +20,7 @@ const products = {
     {
       name: 'Footstep Custom',
       caption: 'Variasi motor dengan desain presisi dan material berkualitas.',
+      hint: '(klik gambar untuk lihat detail)',
       images: ['https://images.unsplash.com/photo-1666618090858-fbcee636bd3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxtZXRhbCUyMHdvcmtzaG9wJTIwcHJlY2lzaW9uJTIwcGFydHN8ZW58MXx8fHwxNzc5NzExOTUzfDA&ixlib=rb-4.1.0&q=80&w=1080'],
       material: 'Stainless Steel / Aluminium',
       specs: ['Custom design sesuai permintaan', 'Tahan karat dan korosi', 'Finishing halus dan presisi']
@@ -36,6 +37,7 @@ const products = {
     {
       name: 'Velg Racing Custom',
       caption: 'Modifikasi dan custom velg racing dengan presisi tinggi.',
+      hint: '(klik gambar untuk lihat detail)',
       images: ['https://images.unsplash.com/photo-1582043568773-a7a2b57239f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWNoYW5pY2FsJTIwZ2VhcnMlMjBlbmdpbmVlcmluZ3xlbnwxfHx8fDE3Nzk3MTE5NTR8MA&ixlib=rb-4.1.0&q=80&w=1080'],
       material: 'Aluminium / Custom',
       specs: ['Bubut velg presisi', 'Balancing sempurna', 'Berbagai ukuran']
@@ -45,6 +47,7 @@ const products = {
     {
       name: 'Screw Feeder Industrial',
       caption: 'Komponen screw feeder untuk kebutuhan industri.',
+      hint: '(klik gambar untuk lihat detail)',
       images: ['https://images.unsplash.com/photo-1593062037896-764e9f52029e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxtZWNoYW5pY2FsJTIwZ2VhcnMlMjBlbmdpbmVlcmluZ3xlbnwxfHx8fDE3Nzk3MTE5NTR8MA&ixlib=rb-4.1.0&q=80&w=1080'],
       material: 'Stainless Steel / Besi',
       specs: ['Presisi tinggi', 'Tahan lama', 'Custom sesuai mesin']
@@ -54,6 +57,7 @@ const products = {
     {
       name: 'Bearing Custom',
       caption: 'Pengerjaan bearing dan komponen custom lainnya.',
+      hint: '(klik gambar untuk lihat detail)',
       images: ['https://images.unsplash.com/photo-1583198432859-635beb4e8600?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxtZWNoYW5pY2FsJTIwZ2VhcnMlMjBlbmdpbmVlcmluZ3xlbnwxfHx8fDE3Nzk3MTE5NTR8MA&ixlib=rb-4.1.0&q=80&w=1080'],
       material: 'Custom sesuai kebutuhan',
       specs: ['Bubut bearing presisi', 'Berbagai ukuran', 'Toleransi ketat']
@@ -61,6 +65,7 @@ const products = {
     {
       name: 'Ulir/Drat Custom',
       caption: 'Pembuatan ulir dan drat dengan berbagai spesifikasi.',
+      hint: '(klik gambar untuk lihat detail)',
       images: ['https://images.unsplash.com/photo-1740209475472-aa7d280f7452?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxtZXRhbCUyMHdvcmtzaG9wJTIwcHJlY2lzaW9uJTIwcGFydHN8ZW58MXx8fHwxNzc5NzExOTUzfDA&ixlib=rb-4.1.0&q=80&w=1080'],
       material: 'Stainless / Besi / Aluminium',
       specs: ['Ulir metrik & inci', 'Presisi tinggi', 'Custom pitch']
@@ -111,6 +116,7 @@ export function ProductsSection() {
                       <img src={product.images[0]} alt={product.name} className="w-full h-48 object-cover rounded-lg mb-3" />
                       <h4 className="font-semibold text-foreground mb-2">{product.name}</h4>
                       <p className="text-sm text-muted-foreground">{product.caption}</p>
+                      <p className="text-xs text-primary mt-2">{product.hint}</p>
                     </div>
                   ))}
                 </div>
@@ -135,6 +141,7 @@ export function ProductsSection() {
                       <img src={product.images[0]} alt={product.name} className="w-full h-48 object-cover rounded-lg mb-3" />
                       <h4 className="font-semibold text-foreground mb-2">{product.name}</h4>
                       <p className="text-sm text-muted-foreground">{product.caption}</p>
+                      <p className="text-xs text-primary mt-2">{product.hint}</p>
                     </div>
                   ))}
                 </div>
@@ -159,6 +166,7 @@ export function ProductsSection() {
                       <img src={product.images[0]} alt={product.name} className="w-full h-48 object-cover rounded-lg mb-3" />
                       <h4 className="font-semibold text-foreground mb-2">{product.name}</h4>
                       <p className="text-sm text-muted-foreground">{product.caption}</p>
+                      <p className="text-xs text-primary mt-2">{product.hint}</p>
                     </div>
                   ))}
                 </div>
@@ -183,6 +191,7 @@ export function ProductsSection() {
                       <img src={product.images[0]} alt={product.name} className="w-full h-48 object-cover rounded-lg mb-3" />
                       <h4 className="font-semibold text-foreground mb-2">{product.name}</h4>
                       <p className="text-sm text-muted-foreground">{product.caption}</p>
+                      <p className="text-xs text-primary mt-2">{product.hint}</p>
                     </div>
                   ))}
                 </div>
@@ -192,7 +201,7 @@ export function ProductsSection() {
         </motion.div>
       </div>
 
-      {/* Product Detail Modal */}
+      {/* modal - detail product */}
       <Dialog.Root open={!!selectedProduct} onOpenChange={() => setSelectedProduct(null)}>
         <Dialog.Portal>
           <Dialog.Overlay className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50" />

@@ -26,7 +26,7 @@ export function Navbar() {
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/6281234567890', '_blank');
+    window.open('https://wa.me/6281232377216', 'halo, saya tertarik dengan layanan WITA JAYA, dan ingin bertanya mengenai ...', '_blank');
   };
 
   return (
@@ -42,7 +42,7 @@ export function Navbar() {
           <div className="flex items-center gap-2">
             <div>
               <Image
-                src="/logo.png"
+                src="/logo-wj.png"
                 alt="Logo WITA JAYA"
                 width={40}
                 height={40}
@@ -93,7 +93,7 @@ export function Navbar() {
             </button>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* mobile menu button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="md:hidden p-2 text-primary"
@@ -102,7 +102,7 @@ export function Navbar() {
           </button>
         </div>
 
-        {/* Mobile Menu */}
+        {/* mobile menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden mt-4 pb-4 flex flex-col gap-4">
             <button

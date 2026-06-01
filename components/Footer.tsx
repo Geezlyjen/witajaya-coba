@@ -1,6 +1,8 @@
 "use client";
 
-import { Phone, Music } from 'lucide-react';
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 import Image from 'next/image';
 
 export function Footer() {
@@ -19,7 +21,7 @@ export function Footer() {
             <div className="flex items-center gap-2 mb-4">
             <div>
               <Image
-                src="/logo.png"
+                src="/logo-wj.png"
                 alt="Logo WITA JAYA"
                 width={40}
                 height={40}
@@ -83,7 +85,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-white/80 hover:text-white transition-colors"
               >
-                <Phone className="w-5 h-5" />
+                <FaWhatsapp className="w-5 h-5" />
                 WhatsApp
               </a>
               <a
@@ -92,7 +94,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-white/80 hover:text-white transition-colors"
               >
-                {/* <Instagram className="w-5 h-5" /> */}
+                <FaInstagram className="w-5 h-5" />
                 Instagram
               </a>
               <a
@@ -101,7 +103,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-white/80 hover:text-white transition-colors"
               >
-                <Music className="w-5 h-5" />
+                <FaTiktok className="w-5 h-5" />
                 TikTok
               </a>
             </div>

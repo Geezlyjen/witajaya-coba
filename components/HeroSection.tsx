@@ -5,7 +5,7 @@ import { CheckCircle2, Phone, ArrowRight, Award, Truck, Zap } from 'lucide-react
 
 export function HeroSection() {
   const handleWhatsApp = () => {
-    window.open('https://wa.me/6281234567890', '_blank');
+    window.open('https://wa.me/6281232377216', '_blank');
   };
 
   const scrollToProducts = () => {
@@ -16,7 +16,7 @@ export function HeroSection() {
     <section id="beranda" className="pt-32 pb-20 bg-gradient-to-br from-blue-50 via-white to-slate-50">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Left Content */}
+          {/* visual kiri */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -29,7 +29,7 @@ export function HeroSection() {
               WITA JAYA melayani berbagai kebutuhan pengerjaan bubut dan manufaktur seperti bubut ulir (drat), bubut silinder, bearing, custom part, variasi kendaraan, serta berbagai kebutuhan teknik lainnya dengan pengerjaan presisi dan kualitas terbaik. Melayani Surabaya dan pengiriman ke seluruh Indonesia.
             </p>
 
-            {/* Key Features */}
+            {/* keunggulan */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-8">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
@@ -53,7 +53,7 @@ export function HeroSection() {
               </div>
             </div>
 
-            {/* CTA Buttons */}
+            {/* CTA buttons */}
             <div className="flex flex-wrap gap-4">
               <button
                 onClick={handleWhatsApp}
@@ -72,7 +72,7 @@ export function HeroSection() {
             </div>
           </motion.div>
 
-          {/* Right Visual */}
+          {/* visual kanan */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -81,14 +81,14 @@ export function HeroSection() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1713371398484-cc4e4f6a262a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw0fHxtZXRhbCUyMHdvcmtzaG9wJTIwcHJlY2lzaW9uJTIwcGFydHN8ZW58MXx8fHwxNzc5NzExOTUzfDA&ixlib=rb-4.1.0&q=80&w=1080"
-                alt="Precision lathe machine working"
+                src="/thumbnail.png"
+                alt="Bengkel Bubut WITA JAYA Surabaya - Jasa Bubut Presisi, Drat, Bearing, Custom Part"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent" />
             </div>
 
-            {/* Statistics Cards */}
+            {/* statistics cards */}
             <div className="absolute -bottom-8 left-4 right-4 grid grid-cols-3 gap-3">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}

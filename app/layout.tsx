@@ -3,10 +3,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title:
-    "Bengkel Bubut Surabaya | WITA JAYA",
+    "WITA JAYA | Bengkel Bubut Surabaya",
 
   description:
-    "WITA JAYA melayani jasa bubut presisi, drat/ulir, screw feeder, bearing, custom part, variasi motor dan mobil.",
+    "WITA JAYA melayani jasa bengkel bubut presisi, drat/ulir, screw feeder, bearing, custom part, variasi motor dan mobil.",
 
   keywords: [
     "bengkel bubut surabaya",
