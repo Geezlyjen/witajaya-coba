@@ -21,7 +21,7 @@ export function Footer() {
             <div className="flex items-center gap-2 mb-4">
             <div>
               <Image
-                src="/logo-wj.png"
+                src="/logo.png"
                 alt="Logo WITA JAYA"
                 width={40}
                 height={40}
