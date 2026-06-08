@@ -17,7 +17,7 @@ export function AboutSection() {
         >
           <div className="relative">
             <img
-              src="/about.png"
+              src="/about.webp"
               alt="WITA JAYA Workshop"
               className="w-full rounded-2xl shadow-xl"
             />

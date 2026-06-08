@@ -23,7 +23,7 @@ export function HeroSection() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
-              Bengkel Bubut Presisi Surabaya – Jasa Bubut, Drat, Bearing, dan Custom Part Berkualitas
+              Bengkel Bubut Surabaya – Jasa Bubut, Drat, dan Custom Part Berkualitas
             </h1>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               WITA JAYA melayani berbagai kebutuhan pengerjaan bubut dan manufaktur seperti bubut ulir (drat), bubut silinder, bearing, custom part, variasi kendaraan, serta berbagai kebutuhan teknik lainnya dengan pengerjaan presisi dan kualitas terbaik. Melayani Surabaya dan pengiriman ke seluruh Indonesia.
@@ -81,7 +81,7 @@ export function HeroSection() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/thumbnail.png"
+                src="/thumbnail.webp"
                 alt="Bengkel Bubut WITA JAYA Surabaya - Jasa Bubut Presisi, Drat, Bearing, Custom Part"
                 className="w-full h-[500px] object-cover"
               />

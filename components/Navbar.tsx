@@ -51,7 +51,7 @@ export function Navbar() {
             </div>
             <div>
               <div className="font-bold text-lg text-primary">WITA JAYA</div>
-              <div className="text-xs text-muted-foreground">Bengkel Bubut Presisi</div>
+              <div className="text-xs text-muted-foreground">Bengkel Bubut Surabaya</div>
             </div>
           </div>
 

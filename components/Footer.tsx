@@ -30,11 +30,11 @@ export function Footer() {
             </div>
               <div>
                 <div className="font-bold text-xl">WITA JAYA</div>
-                <div className="text-sm text-white/80">Bengkel Bubut Presisi</div>
+                <div className="text-sm text-white/80">Bengkel Bubut</div>
               </div>
             </div>
             <p className="text-white/80">
-              Bengkel Bubut Presisi Surabaya - Melayani berbagai kebutuhan manufaktur dan teknik dengan hasil terbaik.
+              Bengkel Bubut Surabaya - Melayani berbagai kebutuhan manufaktur dan teknik dengan hasil terbaik.
             </p>
           </div>
 
